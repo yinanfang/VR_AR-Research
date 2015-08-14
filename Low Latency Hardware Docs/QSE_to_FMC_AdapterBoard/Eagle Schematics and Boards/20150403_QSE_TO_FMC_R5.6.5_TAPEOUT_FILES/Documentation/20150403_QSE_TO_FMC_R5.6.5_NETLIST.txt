@@ -1,0 +1,1284 @@
+Netlist
+
+Exported from 20150403_QSE_TO_FMC_R5.6.5_TO.brd at 4/4/2015 10:34:26 AM
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Net                         Part            Pad
+
++1V8                        C313            2
+                            D302            1
+                            D304            3
+                            R305            2
+                            TP2             TP
+                            U301            A2
+                            U401            2
+
++1V8_XLAT2                  C331            2
+                            D306            1
+                            D307            3
+                            R310            2
+                            TP11            TP
+                            U302            A2
+                            U402            2
+
++3V3                        C301            2
+                            C302            2
+                            C303            2
+                            C304            2
+                            C305            2
+                            C306            2
+                            C307            2
+                            C308            2
+                            C401            2
+                            C402            2
+                            D302            3
+                            D303            C
+                            D306            3
+                            DZ301           C
+                            F301            2
+                            L302            2
+                            L307            2
+                            R211            1
+                            R301            2
+                            R410            2
+                            R413            2
+                            TP1             TP
+                            U301            A1
+                            U301            B1
+                            U302            A1
+                            U302            B1
+
+1V8_LED                     C316            2
+                            LED303          A
+                            R305            1
+
+1V8_LED1                    C332            2
+                            LED306          A
+                            R310            1
+
+3V3_EXP_JP                  D305            C
+                            JP300           1
+                            JP301           1
+                            R303            2
+
+3V3_INT_JP                  JP301           3
+                            SJ301           1
+                            SJ302           1
+
+3V3_INT_LED                 LED304          A
+                            R307            1
+
+3V3_IN_FILTER_TO_FUSE       F301            1
+                            L305            1
+                            L306            1
+
+3V3_RX                      C1              1
+                            C211            1
+                            C212            1
+                            C213            1
+                            C214            1
+                            C215            1
+                            C227            1
+                            C314            2
+                            C315            2
+                            C317            2
+                            C318            2
+                            C319            2
+                            C320            2
+                            C321            2
+                            L303            2
+                            R203            1
+                            R204            1
+                            R205            1
+                            R207            1
+                            R308            2
+                            TP3             TP
+                            U202            1
+                            U202            12
+                            U202            25
+                            U202            32
+                            U202            36
+                            U202            6
+
+3V3_RX_FILT_S0              C310            2
+                            C312            2
+                            L302            1
+                            L304            1
+
+3V3_RX_FILT_S1              L301            2
+                            L304            2
+
+3V3_RX_FILT_S2              C309            2
+                            C311            2
+                            L301            1
+                            L303            1
+
+3V3_RX_LED                  C322            2
+                            LED305          A
+                            R309            1
+
+3V3_TO_AUX_BIAS_POST_FILTER L307            1
+                            R311            1
+
+AUX_BIAS                    C334            2
+                            C335            2
+                            R201            1
+                            R202            2
+                            R311            2
+                            R312            1
+                            TP4             TP
+
+AUX_SRC_C_N                 C209            1
+                            J200            P$17
+                            R208            2
+                            R209            1
+                            U201            2
+                            U202            27
+
+AUX_SRC_C_P                 C207            1
+                            J200            P$15
+                            R210            1
+                            R211            2
+                            U201            1
+                            U202            28
+
+CAD_SNK_PULLDOWN            R214            2
+                            U202            10
+
+CAD_SRC                     J200            P$13
+                            R212            2
+                            U201            4
+
+DP0_AUX_RX_DIFF_N           C209            2
+                            JA_FMC:JA1_FMC1 H11
+                            R202            1
+
+DP0_AUX_RX_DIFF_P           C207            2
+                            JA_FMC:JA1_FMC1 H10
+                            R201            2
+
+DP0_HPD                     JA_FMC:JA1_FMC1 C18
+                            U401            11
+
+DP0_HPD_3V3                 R207            2
+                            U202            11
+                            U401            14
+
+DP0_IN0_N                   C220            2
+                            U202            39
+
+DP0_IN0_P                   C224            2
+                            U202            38
+
+DP0_IN1_N                   C219            2
+                            U202            42
+
+DP0_IN1_P                   C225            2
+                            U202            41
+
+DP0_IN2_N                   C217            2
+                            U202            45
+
+DP0_IN2_P                   C223            2
+                            U202            44
+
+DP0_IN3_N                   C218            2
+                            U202            48
+
+DP0_IN3_P                   C222            2
+                            U202            47
+
+DP0_LANE0_N                 C203            2
+                            JA_FMC:JA1_FMC1 A11
+
+DP0_LANE0_P                 C208            2
+                            JA_FMC:JA1_FMC1 A10
+
+DP0_LANE1_N                 C204            2
+                            JA_FMC:JA1_FMC1 A7
+
+DP0_LANE1_P                 C210            2
+                            JA_FMC:JA1_FMC1 A6
+
+DP0_LANE2_N                 C202            2
+                            JA_FMC:JA1_FMC1 C7
+
+DP0_LANE2_P                 C206            2
+                            JA_FMC:JA1_FMC1 C6
+
+DP0_LANE3_N                 C201            2
+                            JA_FMC:JA1_FMC1 A3
+
+DP0_LANE3_OUT0_N            C203            1
+                            U202            22
+
+DP0_LANE3_OUT0_P            C208            1
+                            U202            23
+
+DP0_LANE3_OUT1_N            C204            1
+                            U202            19
+
+DP0_LANE3_OUT1_P            C210            1
+                            U202            20
+
+DP0_LANE3_OUT2_N            C202            1
+                            U202            16
+
+DP0_LANE3_OUT2_P            C206            1
+                            U202            17
+
+DP0_LANE3_OUT3_N            C201            1
+                            U202            13
+
+DP0_LANE3_OUT3_P            C205            1
+                            U202            14
+
+DP0_LANE3_P                 C205            2
+                            JA_FMC:JA1_FMC1 A2
+
+DP0_RST                     JA_FMC:JA1_FMC1 D1
+                            R215            2
+
+DP0_RST_CONTROL             JP200           2
+                            R215            1
+
+DP0_RX_ENA                  JA_FMC:JA1_FMC1 G36
+                            U401            12
+
+DP0_RX_ENA_3V3              R203            2
+                            U202            26
+                            U401            13
+
+DP0_RX_SENSE_N              JA_FMC:JA1_FMC1 G10
+                            R209            2
+
+DP0_RX_SENSE_P              JA_FMC:JA1_FMC1 G9
+                            R210            2
+
+DP0_SCL_CTL                 JA_FMC:JA1_FMC1 H31
+                            U401            6
+
+DP0_SCL_CTL_3V3             R204            2
+                            U202            4
+                            U401            19
+
+DP0_SDA_CTL                 JA_FMC:JA1_FMC1 H25
+                            U401            7
+
+DP0_SDA_CTL_3V3             R205            2
+                            U202            5
+                            U401            18
+
+DP_IN_LANE0_N               C220            1
+                            J200            P$10
+                            U205            2
+
+DP_IN_LANE0_P               C224            1
+                            J200            P$12
+                            U205            1
+
+DP_IN_LANE1_N               C219            1
+                            J200            P$7
+                            U205            5
+
+DP_IN_LANE1_P               C225            1
+                            J200            P$9
+                            U205            4
+
+DP_IN_LANE2_N               C217            1
+                            J200            P$4
+                            U203            2
+
+DP_IN_LANE2_P               C223            1
+                            J200            P$6
+                            U203            1
+
+DP_IN_LANE3_N               C218            1
+                            J200            P$1
+                            U203            5
+
+DP_IN_LANE3_P               C222            1
+                            J200            P$3
+                            U203            4
+
+EXP1_DIFF_CLK_IN_CLK2_N     JA_FMC:JA1_FMC1 K5
+                            QSE_J401        44
+
+EXP1_DIFF_CLK_IN_CLK2_P     JA_FMC:JA1_FMC1 K4
+                            QSE_J401        42
+
+EXP1_DIFF_CLK_OUT_CLK3_N    JA_FMC:JA1_FMC1 J3
+                            QSE_J401        74
+
+EXP1_DIFF_CLK_OUT_CLK3_P    JA_FMC:JA1_FMC1 J2
+                            QSE_J401        72
+
+EXP2_DIFF_CLK_IN_N          JA_FMC:JA1_FMC1 D21
+                            QSE_J402        44
+
+EXP2_DIFF_CLK_IN_P          JA_FMC:JA1_FMC1 D20
+                            QSE_J402        42
+
+EXP2_SE_CLK_IN              QSE_J402        43
+                            R411            2
+                            U402            16
+
+EXP2_SE_CLK_IN_1V8          JA_FMC:JA1_FMC1 C22
+                            U402            9
+
+EXT_3V3_LED                 LED302          A
+                            R304            1
+
+FMC_3PV3_TERM               C333            2
+                            JA_FMC:JA1_FMC1 C39
+                            JA_FMC:JA1_FMC1 D36
+                            JA_FMC:JA1_FMC1 D38
+                            JA_FMC:JA1_FMC1 D40
+                            R313            1
+
+GBCTCLK1_M2C_C_N            C100            1
+                            J101_GBCTCLK1_N 1
+
+GBCTCLK1_M2C_C_P            C101            1
+                            J102-GBCTCLK1_P 1
+
+GBCTCLK1_M2C_N              C100            2
+                            JA_FMC:JA1_FMC1 B21
+
+GBCTCLK1_M2C_P              C101            2
+                            JA_FMC:JA1_FMC1 B20
+
+GND                         C1              2
+                            C211            2
+                            C212            2
+                            C213            2
+                            C214            2
+                            C215            2
+                            C216            1
+                            C221            1
+                            C227            2
+                            C301            1
+                            C302            1
+                            C303            1
+                            C304            1
+                            C305            1
+                            C306            1
+                            C307            1
+                            C308            1
+                            C309            1
+                            C310            1
+                            C311            1
+                            C312            1
+                            C313            1
+                            C314            1
+                            C315            1
+                            C316            1
+                            C317            1
+                            C318            1
+                            C319            1
+                            C320            1
+                            C321            1
+                            C322            1
+                            C323            1
+                            C324            1
+                            C325            1
+                            C326            1
+                            C327            1
+                            C328            1
+                            C329            1
+                            C330            1
+                            C331            1
+                            C332            1
+                            C333            1
+                            C334            1
+                            C335            1
+                            C401            1
+                            C402            1
+                            C403            2
+                            C404            2
+                            C405            1
+                            C406            1
+                            D303            A
+                            D304            1
+                            D305            A
+                            D307            1
+                            DZ301           A
+                            H1              B3,2
+                            H2              B3,2
+                            H3              B3,2
+                            H4              B3,2
+                            J101_GBCTCLK1_N 2@1
+                            J101_GBCTCLK1_N 2@2
+                            J101_GBCTCLK1_N 2@3
+                            J101_GBCTCLK1_N 2@4
+                            J101_GBCTCLK1_N 2@5
+                            J101_GBCTCLK1_N 2@6
+                            J102-GBCTCLK1_P 2@1
+                            J102-GBCTCLK1_P 2@2
+                            J102-GBCTCLK1_P 2@3
+                            J102-GBCTCLK1_P 2@4
+                            J102-GBCTCLK1_P 2@5
+                            J102-GBCTCLK1_P 2@6
+                            J200            P$11
+                            J200            P$14
+                            J200            P$16
+                            J200            P$19
+                            J200            P$2
+                            J200            P$21
+                            J200            P$22
+                            J200            P$23
+                            J200            P$24
+                            J200            P$5
+                            J200            P$8
+                            JA_FMC:JA1_FMC1 A1
+                            JA_FMC:JA1_FMC1 A12
+                            JA_FMC:JA1_FMC1 A13
+                            JA_FMC:JA1_FMC1 A16
+                            JA_FMC:JA1_FMC1 A17
+                            JA_FMC:JA1_FMC1 A20
+                            JA_FMC:JA1_FMC1 A21
+                            JA_FMC:JA1_FMC1 A24
+                            JA_FMC:JA1_FMC1 A25
+                            JA_FMC:JA1_FMC1 A28
+                            JA_FMC:JA1_FMC1 A29
+                            JA_FMC:JA1_FMC1 A32
+                            JA_FMC:JA1_FMC1 A33
+                            JA_FMC:JA1_FMC1 A36
+                            JA_FMC:JA1_FMC1 A37
+                            JA_FMC:JA1_FMC1 A4
+                            JA_FMC:JA1_FMC1 A40
+                            JA_FMC:JA1_FMC1 A5
+                            JA_FMC:JA1_FMC1 A8
+                            JA_FMC:JA1_FMC1 A9
+                            JA_FMC:JA1_FMC1 B10
+                            JA_FMC:JA1_FMC1 B11
+                            JA_FMC:JA1_FMC1 B14
+                            JA_FMC:JA1_FMC1 B15
+                            JA_FMC:JA1_FMC1 B18
+                            JA_FMC:JA1_FMC1 B19
+                            JA_FMC:JA1_FMC1 B2
+                            JA_FMC:JA1_FMC1 B22
+                            JA_FMC:JA1_FMC1 B23
+                            JA_FMC:JA1_FMC1 B26
+                            JA_FMC:JA1_FMC1 B27
+                            JA_FMC:JA1_FMC1 B3
+                            JA_FMC:JA1_FMC1 B30
+                            JA_FMC:JA1_FMC1 B31
+                            JA_FMC:JA1_FMC1 B34
+                            JA_FMC:JA1_FMC1 B35
+                            JA_FMC:JA1_FMC1 B38
+                            JA_FMC:JA1_FMC1 B39
+                            JA_FMC:JA1_FMC1 B6
+                            JA_FMC:JA1_FMC1 B7
+                            JA_FMC:JA1_FMC1 C1
+                            JA_FMC:JA1_FMC1 C12
+                            JA_FMC:JA1_FMC1 C13
+                            JA_FMC:JA1_FMC1 C16
+                            JA_FMC:JA1_FMC1 C17
+                            JA_FMC:JA1_FMC1 C20
+                            JA_FMC:JA1_FMC1 C21
+                            JA_FMC:JA1_FMC1 C23
+                            JA_FMC:JA1_FMC1 C24
+                            JA_FMC:JA1_FMC1 C25
+                            JA_FMC:JA1_FMC1 C28
+                            JA_FMC:JA1_FMC1 C29
+                            JA_FMC:JA1_FMC1 C32
+                            JA_FMC:JA1_FMC1 C33
+                            JA_FMC:JA1_FMC1 C36
+                            JA_FMC:JA1_FMC1 C38
+                            JA_FMC:JA1_FMC1 C4
+                            JA_FMC:JA1_FMC1 C40
+                            JA_FMC:JA1_FMC1 C5
+                            JA_FMC:JA1_FMC1 C8
+                            JA_FMC:JA1_FMC1 C9
+                            JA_FMC:JA1_FMC1 D10
+                            JA_FMC:JA1_FMC1 D13
+                            JA_FMC:JA1_FMC1 D16
+                            JA_FMC:JA1_FMC1 D19
+                            JA_FMC:JA1_FMC1 D2
+                            JA_FMC:JA1_FMC1 D22
+                            JA_FMC:JA1_FMC1 D25
+                            JA_FMC:JA1_FMC1 D28
+                            JA_FMC:JA1_FMC1 D3
+                            JA_FMC:JA1_FMC1 D37
+                            JA_FMC:JA1_FMC1 D39
+                            JA_FMC:JA1_FMC1 D6
+                            JA_FMC:JA1_FMC1 D7
+                            JA_FMC:JA1_FMC1 E1
+                            JA_FMC:JA1_FMC1 E11
+                            JA_FMC:JA1_FMC1 E14
+                            JA_FMC:JA1_FMC1 E17
+                            JA_FMC:JA1_FMC1 E20
+                            JA_FMC:JA1_FMC1 E23
+                            JA_FMC:JA1_FMC1 E26
+                            JA_FMC:JA1_FMC1 E29
+                            JA_FMC:JA1_FMC1 E32
+                            JA_FMC:JA1_FMC1 E35
+                            JA_FMC:JA1_FMC1 E38
+                            JA_FMC:JA1_FMC1 E4
+                            JA_FMC:JA1_FMC1 E40
+                            JA_FMC:JA1_FMC1 E5
+                            JA_FMC:JA1_FMC1 E8
+                            JA_FMC:JA1_FMC1 F12
+                            JA_FMC:JA1_FMC1 F15
+                            JA_FMC:JA1_FMC1 F18
+                            JA_FMC:JA1_FMC1 F2
+                            JA_FMC:JA1_FMC1 F21
+                            JA_FMC:JA1_FMC1 F24
+                            JA_FMC:JA1_FMC1 F27
+                            JA_FMC:JA1_FMC1 F3
+                            JA_FMC:JA1_FMC1 F30
+                            JA_FMC:JA1_FMC1 F33
+                            JA_FMC:JA1_FMC1 F36
+                            JA_FMC:JA1_FMC1 F39
+                            JA_FMC:JA1_FMC1 F6
+                            JA_FMC:JA1_FMC1 F9
+                            JA_FMC:JA1_FMC1 G1
+                            JA_FMC:JA1_FMC1 G11
+                            JA_FMC:JA1_FMC1 G14
+                            JA_FMC:JA1_FMC1 G17
+                            JA_FMC:JA1_FMC1 G20
+                            JA_FMC:JA1_FMC1 G23
+                            JA_FMC:JA1_FMC1 G26
+                            JA_FMC:JA1_FMC1 G29
+                            JA_FMC:JA1_FMC1 G32
+                            JA_FMC:JA1_FMC1 G35
+                            JA_FMC:JA1_FMC1 G38
+                            JA_FMC:JA1_FMC1 G4
+                            JA_FMC:JA1_FMC1 G40
+                            JA_FMC:JA1_FMC1 G5
+                            JA_FMC:JA1_FMC1 G8
+                            JA_FMC:JA1_FMC1 H12
+                            JA_FMC:JA1_FMC1 H15
+                            JA_FMC:JA1_FMC1 H18
+                            JA_FMC:JA1_FMC1 H21
+                            JA_FMC:JA1_FMC1 H24
+                            JA_FMC:JA1_FMC1 H26
+                            JA_FMC:JA1_FMC1 H27
+                            JA_FMC:JA1_FMC1 H3
+                            JA_FMC:JA1_FMC1 H30
+                            JA_FMC:JA1_FMC1 H32
+                            JA_FMC:JA1_FMC1 H33
+                            JA_FMC:JA1_FMC1 H36
+                            JA_FMC:JA1_FMC1 H39
+                            JA_FMC:JA1_FMC1 H6
+                            JA_FMC:JA1_FMC1 H9
+                            JA_FMC:JA1_FMC1 J1
+                            JA_FMC:JA1_FMC1 J11
+                            JA_FMC:JA1_FMC1 J14
+                            JA_FMC:JA1_FMC1 J17
+                            JA_FMC:JA1_FMC1 J20
+                            JA_FMC:JA1_FMC1 J23
+                            JA_FMC:JA1_FMC1 J26
+                            JA_FMC:JA1_FMC1 J29
+                            JA_FMC:JA1_FMC1 J32
+                            JA_FMC:JA1_FMC1 J35
+                            JA_FMC:JA1_FMC1 J38
+                            JA_FMC:JA1_FMC1 J4
+                            JA_FMC:JA1_FMC1 J40
+                            JA_FMC:JA1_FMC1 J5
+                            JA_FMC:JA1_FMC1 J8
+                            JA_FMC:JA1_FMC1 K12
+                            JA_FMC:JA1_FMC1 K15
+                            JA_FMC:JA1_FMC1 K18
+                            JA_FMC:JA1_FMC1 K2
+                            JA_FMC:JA1_FMC1 K21
+                            JA_FMC:JA1_FMC1 K24
+                            JA_FMC:JA1_FMC1 K27
+                            JA_FMC:JA1_FMC1 K3
+                            JA_FMC:JA1_FMC1 K30
+                            JA_FMC:JA1_FMC1 K33
+                            JA_FMC:JA1_FMC1 K36
+                            JA_FMC:JA1_FMC1 K39
+                            JA_FMC:JA1_FMC1 K6
+                            JA_FMC:JA1_FMC1 K9
+                            JP300           2
+                            LED301          C
+                            LED302          C
+                            LED303          C
+                            LED304          C
+                            LED305          C
+                            LED306          C
+                            QSE_J401        45
+                            QSE_J401        46
+                            QSE_J401        51
+                            QSE_J401        52
+                            QSE_J401        57
+                            QSE_J401        58
+                            QSE_J401        63
+                            QSE_J401        64
+                            QSE_J401        69
+                            QSE_J401        70
+                            QSE_J401        75
+                            QSE_J401        76
+                            QSE_J401        GND1
+                            QSE_J401        GND10
+                            QSE_J401        GND11
+                            QSE_J401        GND12
+                            QSE_J401        GND2
+                            QSE_J401        GND3
+                            QSE_J401        GND4
+                            QSE_J401        GND5
+                            QSE_J401        GND6
+                            QSE_J401        GND7
+                            QSE_J401        GND8
+                            QSE_J401        GND9
+                            QSE_J402        45
+                            QSE_J402        46
+                            QSE_J402        51
+                            QSE_J402        52
+                            QSE_J402        57
+                            QSE_J402        58
+                            QSE_J402        63
+                            QSE_J402        64
+                            QSE_J402        69
+                            QSE_J402        70
+                            QSE_J402        75
+                            QSE_J402        76
+                            QSE_J402        GND1
+                            QSE_J402        GND10
+                            QSE_J402        GND11
+                            QSE_J402        GND12
+                            QSE_J402        GND2
+                            QSE_J402        GND3
+                            QSE_J402        GND4
+                            QSE_J402        GND5
+                            QSE_J402        GND6
+                            QSE_J402        GND7
+                            QSE_J402        GND8
+                            QSE_J402        GND9
+                            R208            1
+                            R212            1
+                            R214            1
+                            R312            2
+                            R313            2
+                            TP7             TP
+                            TP8             TP
+                            U201            3
+                            U201            8
+                            U202            18
+                            U202            24
+                            U202            3
+                            U202            31
+                            U202            49
+                            U203            3
+                            U203            8
+                            U205            3
+                            U205            8
+                            U301            B2
+                            U302            B2
+                            U401            1
+                            U401            10
+                            U401            15
+                            U401            16
+                            U401            9
+                            U402            1
+                            U402            11
+                            U402            12
+                            U402            13
+                            U402            14
+
+GPIO_0                      QSE_J402        41
+                            R414            2
+                            U402            15
+
+GPIO_0_1V8                  JA_FMC:JA1_FMC1 H37
+                            U402            10
+
+GPIO_1                      QSE_J402        47
+                            R409            2
+                            U402            17
+
+GPIO_1_1V8                  JA_FMC:JA1_FMC1 H38
+                            U402            8
+
+GPIO_2                      QSE_J402        14
+                            R403            2
+                            U402            20
+
+GPIO_2_1V8                  JA_FMC:JA1_FMC1 H34
+                            U402            5
+
+GPIO_3                      QSE_J402        16
+                            R405            2
+                            U402            19
+
+GPIO_3_1V8                  JA_FMC:JA1_FMC1 H35
+                            U402            6
+
+GPIO_4                      QSE_J402        10
+                            R402            2
+                            U402            21
+
+GPIO_4_1V8                  JA_FMC:JA1_FMC1 G34
+                            U402            4
+
+GPIO_5                      QSE_J402        8
+                            R401            2
+                            U402            22
+
+GPIO_5_1V8                  JA_FMC:JA1_FMC1 G33
+                            U402            3
+
+GPIO_6                      QSE_J401        13
+                            R408            2
+                            U401            20
+
+GPIO_6_1V8                  JA_FMC:JA1_FMC1 H14
+                            U401            5
+
+GPIO_7                      QSE_J401        15
+                            R412            2
+                            U401            17
+
+GPIO_7_1V8                  JA_FMC:JA1_FMC1 H13
+                            U401            8
+
+GPIO_8                      QSE_J401        7
+                            R404            2
+                            U401            22
+
+GPIO_8_1V8                  JA_FMC:JA1_FMC1 G16
+                            U401            3
+
+GPIO_9                      QSE_J401        9
+                            R406            2
+                            U401            21
+
+GPIO_9_1V8                  JA_FMC:JA1_FMC1 G15
+                            U401            4
+
+GPIO_10                     QSE_J402        15
+                            R407            2
+                            U402            18
+
+GPIO_10_1V8                 JA_FMC:JA1_FMC1 G37
+                            U402            7
+
+HDP0_N                      JA_FMC:JA1_FMC1 F5
+                            QSE_J401        33
+
+HDP0_P                      JA_FMC:JA1_FMC1 F4
+                            QSE_J401        31
+
+HDP1_N                      JA_FMC:JA1_FMC1 E3
+                            QSE_J401        39
+
+HDP1_P                      JA_FMC:JA1_FMC1 E2
+                            QSE_J401        37
+
+HDP2_N                      JA_FMC:JA1_FMC1 K8
+                            QSE_J401        55
+
+HDP2_P                      JA_FMC:JA1_FMC1 K7
+                            QSE_J401        53
+
+HDP3_N                      JA_FMC:JA1_FMC1 J7
+                            QSE_J401        56
+
+HDP3_P                      JA_FMC:JA1_FMC1 J6
+                            QSE_J401        54
+
+HDP4_N                      JA_FMC:JA1_FMC1 F8
+                            QSE_J401        67
+
+HDP4_P                      JA_FMC:JA1_FMC1 F7
+                            QSE_J401        65
+
+HDP5_N                      JA_FMC:JA1_FMC1 E7
+                            QSE_J401        62
+
+HDP5_P                      JA_FMC:JA1_FMC1 E6
+                            QSE_J401        60
+
+HDP6_N                      JA_FMC:JA1_FMC1 K11
+                            QSE_J401        73
+
+HDP6_P                      JA_FMC:JA1_FMC1 K10
+                            QSE_J401        71
+
+HDP7_N                      JA_FMC:JA1_FMC1 J10
+                            QSE_J401        68
+
+HDP7_P                      JA_FMC:JA1_FMC1 J9
+                            QSE_J401        66
+
+HDP8_N                      JA_FMC:JA1_FMC1 F11
+                            QSE_J401        79
+
+HDP8_P                      JA_FMC:JA1_FMC1 F10
+                            QSE_J401        77
+
+HDP9_N                      JA_FMC:JA1_FMC1 E10
+                            QSE_J401        80
+
+HDP9_P                      JA_FMC:JA1_FMC1 E9
+                            QSE_J401        78
+
+HDP10_N                     JA_FMC:JA1_FMC1 K14
+                            QSE_J401        83
+
+HDP10_P                     JA_FMC:JA1_FMC1 K13
+                            QSE_J401        81
+
+HDP11_N                     JA_FMC:JA1_FMC1 J13
+                            QSE_J401        84
+
+HDP11_P                     JA_FMC:JA1_FMC1 J12
+                            QSE_J401        82
+
+HDP12_N                     JA_FMC:JA1_FMC1 F14
+                            QSE_J401        89
+
+HDP12_P                     JA_FMC:JA1_FMC1 F13
+                            QSE_J401        87
+
+HDP13_N                     JA_FMC:JA1_FMC1 E13
+                            QSE_J401        90
+
+HDP13_P                     JA_FMC:JA1_FMC1 E12
+                            QSE_J401        88
+
+HDP14_N                     JA_FMC:JA1_FMC1 J16
+                            QSE_J401        95
+
+HDP14_P                     JA_FMC:JA1_FMC1 J15
+                            QSE_J401        93
+
+HDP15_N                     JA_FMC:JA1_FMC1 F17
+                            QSE_J401        96
+
+HDP15_P                     JA_FMC:JA1_FMC1 F16
+                            QSE_J401        94
+
+HDP16_N                     JA_FMC:JA1_FMC1 E16
+                            QSE_J401        101
+
+HDP16_P                     JA_FMC:JA1_FMC1 E15
+                            QSE_J401        99
+
+HDP17_N                     JA_FMC:JA1_FMC1 K17
+                            QSE_J401        102
+
+HDP17_P                     JA_FMC:JA1_FMC1 K16
+                            QSE_J401        100
+
+HDP18_N                     JA_FMC:JA1_FMC1 J19
+                            QSE_J401        107
+
+HDP18_P                     JA_FMC:JA1_FMC1 J18
+                            QSE_J401        105
+
+HDP19_N                     JA_FMC:JA1_FMC1 F20
+                            QSE_J401        108
+
+HDP19_P                     JA_FMC:JA1_FMC1 F19
+                            QSE_J401        106
+
+HDP20_N                     JA_FMC:JA1_FMC1 E19
+                            QSE_J401        113
+
+HDP20_P                     JA_FMC:JA1_FMC1 E18
+                            QSE_J401        111
+
+HDP21_N                     JA_FMC:JA1_FMC1 K20
+                            QSE_J401        114
+
+HDP21_P                     JA_FMC:JA1_FMC1 K19
+                            QSE_J401        112
+
+HDP22_N                     JA_FMC:JA1_FMC1 J22
+                            QSE_J401        119
+
+HDP22_P                     JA_FMC:JA1_FMC1 J21
+                            QSE_J401        117
+
+HDP23_N                     JA_FMC:JA1_FMC1 K23
+                            QSE_J401        120
+
+HDP23_P                     JA_FMC:JA1_FMC1 K22
+                            QSE_J401        118
+
+HDQ0_N                      JA_FMC:JA1_FMC1 K26
+                            QSE_J402        120
+
+HDQ0_P                      JA_FMC:JA1_FMC1 K25
+                            QSE_J402        118
+
+HDQ1_N                      JA_FMC:JA1_FMC1 J25
+                            QSE_J402        119
+
+HDQ1_P                      JA_FMC:JA1_FMC1 J24
+                            QSE_J402        117
+
+HDQ2_N                      JA_FMC:JA1_FMC1 F23
+                            QSE_J402        114
+
+HDQ2_P                      JA_FMC:JA1_FMC1 F22
+                            QSE_J402        112
+
+HDQ3_N                      JA_FMC:JA1_FMC1 E22
+                            QSE_J402        113
+
+HDQ3_P                      JA_FMC:JA1_FMC1 E21
+                            QSE_J402        111
+
+HDQ4_N                      JA_FMC:JA1_FMC1 F26
+                            QSE_J402        108
+
+HDQ4_P                      JA_FMC:JA1_FMC1 F25
+                            QSE_J402        106
+
+HDQ5_N                      JA_FMC:JA1_FMC1 E25
+                            QSE_J402        107
+
+HDQ5_P                      JA_FMC:JA1_FMC1 E24
+                            QSE_J402        105
+
+HDQ6_N                      JA_FMC:JA1_FMC1 K29
+                            QSE_J402        102
+
+HDQ6_P                      JA_FMC:JA1_FMC1 K28
+                            QSE_J402        100
+
+HDQ7_N                      JA_FMC:JA1_FMC1 J28
+                            QSE_J402        101
+
+HDQ7_P                      JA_FMC:JA1_FMC1 J27
+                            QSE_J402        99
+
+HDQ8_N                      JA_FMC:JA1_FMC1 F29
+                            QSE_J402        96
+
+HDQ8_P                      JA_FMC:JA1_FMC1 F28
+                            QSE_J402        94
+
+HDQ9_N                      JA_FMC:JA1_FMC1 E28
+                            QSE_J402        95
+
+HDQ9_P                      JA_FMC:JA1_FMC1 E27
+                            QSE_J402        93
+
+HDQ10_N                     JA_FMC:JA1_FMC1 K32
+                            QSE_J402        90
+
+HDQ10_P                     JA_FMC:JA1_FMC1 K31
+                            QSE_J402        88
+
+HDQ11_N                     JA_FMC:JA1_FMC1 J31
+                            QSE_J402        89
+
+HDQ11_P                     JA_FMC:JA1_FMC1 J30
+                            QSE_J402        87
+
+HDQ12_N                     JA_FMC:JA1_FMC1 F32
+                            QSE_J402        84
+
+HDQ12_P                     JA_FMC:JA1_FMC1 F31
+                            QSE_J402        82
+
+HDQ13_N                     JA_FMC:JA1_FMC1 E31
+                            QSE_J402        83
+
+HDQ13_P                     JA_FMC:JA1_FMC1 E30
+                            QSE_J402        81
+
+HDQ14_N                     JA_FMC:JA1_FMC1 K35
+                            QSE_J402        80
+
+HDQ14_P                     JA_FMC:JA1_FMC1 K34
+                            QSE_J402        78
+
+HDQ15_N                     JA_FMC:JA1_FMC1 J34
+                            QSE_J402        79
+
+HDQ15_P                     JA_FMC:JA1_FMC1 J33
+                            QSE_J402        77
+
+HDQ16_N                     JA_FMC:JA1_FMC1 F35
+                            QSE_J402        68
+
+HDQ16_P                     JA_FMC:JA1_FMC1 F34
+                            QSE_J402        66
+
+HDQ17_N                     JA_FMC:JA1_FMC1 K38
+                            QSE_J402        73
+
+HDQ17_P                     JA_FMC:JA1_FMC1 K37
+                            QSE_J402        71
+
+HDQ18_N                     JA_FMC:JA1_FMC1 J37
+                            QSE_J402        62
+
+HDQ18_P                     JA_FMC:JA1_FMC1 J36
+                            QSE_J402        60
+
+HDQ19_N                     JA_FMC:JA1_FMC1 E34
+                            QSE_J402        67
+
+HDQ19_P                     JA_FMC:JA1_FMC1 E33
+                            QSE_J402        65
+
+HDQ20_N                     JA_FMC:JA1_FMC1 F38
+                            QSE_J402        56
+
+HDQ20_P                     JA_FMC:JA1_FMC1 F37
+                            QSE_J402        54
+
+HDQ21_N                     JA_FMC:JA1_FMC1 E37
+                            QSE_J402        55
+
+HDQ21_P                     JA_FMC:JA1_FMC1 E36
+                            QSE_J402        53
+
+HPD_SRC                     J200            P$18
+                            U201            5
+                            U202            9
+
+LA00_N                      JA_FMC:JA1_FMC1 G7
+                            QSE_J401        61
+
+LA00_P                      JA_FMC:JA1_FMC1 G6
+                            QSE_J401        59
+
+LA01_N                      JA_FMC:JA1_FMC1 D9
+                            QSE_J401        50
+
+LA01_P                      JA_FMC:JA1_FMC1 D8
+                            QSE_J401        48
+
+LA02_N                      JA_FMC:JA1_FMC1 H8
+                            QSE_J402        74
+
+LA02_P                      JA_FMC:JA1_FMC1 H7
+                            QSE_J402        72
+
+LA05_N                      JA_FMC:JA1_FMC1 D12
+                            QSE_J401        34
+
+LA05_P                      JA_FMC:JA1_FMC1 D11
+                            QSE_J401        32
+
+LA06_N                      JA_FMC:JA1_FMC1 C11
+                            QSE_J401        40
+
+LA06_P                      JA_FMC:JA1_FMC1 C10
+                            QSE_J401        38
+
+LA08_N                      JA_FMC:JA1_FMC1 G13
+                            QSE_J401        28
+
+LA08_P                      JA_FMC:JA1_FMC1 G12
+                            QSE_J401        26
+
+LA09_N                      JA_FMC:JA1_FMC1 D15
+                            QSE_J401        22
+
+LA09_P                      JA_FMC:JA1_FMC1 D14
+                            QSE_J401        20
+
+LA10_N                      JA_FMC:JA1_FMC1 C15
+                            QSE_J401        27
+
+LA10_P                      JA_FMC:JA1_FMC1 C14
+                            QSE_J401        25
+
+LA13_N                      JA_FMC:JA1_FMC1 D18
+                            QSE_J401        21
+
+LA13_P                      JA_FMC:JA1_FMC1 D17
+                            QSE_J401        19
+
+LA16_N                      JA_FMC:JA1_FMC1 G19
+                            QSE_J402        50
+
+LA16_P                      JA_FMC:JA1_FMC1 G18
+                            QSE_J402        48
+
+LA19_N                      JA_FMC:JA1_FMC1 H23
+                            QSE_J402        39
+
+LA19_P                      JA_FMC:JA1_FMC1 H22
+                            QSE_J402        37
+
+LA20_N                      JA_FMC:JA1_FMC1 G22
+                            QSE_J402        22
+
+LA20_P                      JA_FMC:JA1_FMC1 G21
+                            QSE_J402        20
+
+LA22_N                      JA_FMC:JA1_FMC1 G25
+                            QSE_J402        28
+
+LA22_P                      JA_FMC:JA1_FMC1 G24
+                            QSE_J402        26
+
+LA23_N                      JA_FMC:JA1_FMC1 D24
+                            QSE_J402        21
+
+LA23_P                      JA_FMC:JA1_FMC1 D23
+                            QSE_J402        19
+
+LA24_N                      JA_FMC:JA1_FMC1 H29
+                            QSE_J402        61
+
+LA24_P                      JA_FMC:JA1_FMC1 H28
+                            QSE_J402        59
+
+LA25_N                      JA_FMC:JA1_FMC1 G28
+                            QSE_J402        27
+
+LA25_P                      JA_FMC:JA1_FMC1 G27
+                            QSE_J402        25
+
+LA26_N                      JA_FMC:JA1_FMC1 D27
+                            QSE_J402        34
+
+LA26_P                      JA_FMC:JA1_FMC1 D26
+                            QSE_J402        32
+
+LA27_N                      JA_FMC:JA1_FMC1 C27
+                            QSE_J402        33
+
+LA27_P                      JA_FMC:JA1_FMC1 C26
+                            QSE_J402        31
+
+LA29_N                      JA_FMC:JA1_FMC1 G31
+                            QSE_J402        40
+
+LA29_P                      JA_FMC:JA1_FMC1 G30
+                            QSE_J402        38
+
+LOOP0_N                     JA_FMC:JA1_FMC1 H17
+                            JA_FMC:JA1_FMC1 H20
+                            TP5             TP
+
+LOOP0_P                     JA_FMC:JA1_FMC1 H16
+                            JA_FMC:JA1_FMC1 H19
+                            TP6             TP
+
+MAIN_POWER_LED              LED301          A
+                            R302            1
+
+N$80                        R413            1
+                            R416            2
+
+N$85                        R410            1
+                            R415            2
+
+PG_M2C                      JA_FMC:JA1_FMC1 F1
+                            QSE_J401        47
+
+R303_R304                   R301            1
+                            R302            2
+
+R306_R305                   R303            1
+                            R304            2
+
+R308_R307                   R306            1
+                            R307            2
+
+R309_R310                   R308            1
+                            R309            2
+
+RSTN_SOFT_START             C221            2
+                            JP200           1
+                            U202            35
+
+SELECTED_3V3                JP301           2
+                            L305            2
+                            L306            2
+
+VCC_EXP1_2V5                C327            2
+                            C328            2
+                            C403            1
+                            QSE_J401        11
+                            QSE_J401        12
+                            QSE_J401        17
+                            QSE_J401        18
+                            QSE_J401        23
+                            QSE_J401        24
+                            QSE_J401        29
+                            QSE_J401        30
+                            QSE_J401        35
+                            QSE_J401        36
+                            QSE_J401        5
+                            QSE_J401        6
+                            R404            1
+                            R406            1
+                            R408            1
+                            R412            1
+                            TP9             TP
+
+VCC_EXP1_3V3                C325            2
+                            C326            2
+                            QSE_J401        103
+                            QSE_J401        104
+                            QSE_J401        109
+                            QSE_J401        110
+                            QSE_J401        115
+                            QSE_J401        116
+                            QSE_J401        85
+                            QSE_J401        86
+                            QSE_J401        91
+                            QSE_J401        92
+                            QSE_J401        97
+                            QSE_J401        98
+
+VCC_EXP2_2V5                C329            2
+                            C330            2
+                            C404            1
+                            QSE_J402        11
+                            QSE_J402        12
+                            QSE_J402        17
+                            QSE_J402        18
+                            QSE_J402        23
+                            QSE_J402        24
+                            QSE_J402        29
+                            QSE_J402        30
+                            QSE_J402        35
+                            QSE_J402        36
+                            QSE_J402        5
+                            QSE_J402        6
+                            R401            1
+                            R402            1
+                            R403            1
+                            R405            1
+                            R407            1
+                            R409            1
+                            R411            1
+                            R414            1
+                            TP10            TP
+
+VCC_EXP2_3V3                C323            2
+                            C324            2
+                            QSE_J402        103
+                            QSE_J402        104
+                            QSE_J402        109
+                            QSE_J402        110
+                            QSE_J402        115
+                            QSE_J402        116
+                            QSE_J402        85
+                            QSE_J402        86
+                            QSE_J402        91
+                            QSE_J402        92
+                            QSE_J402        97
+                            QSE_J402        98
+                            R306            2
+                            SJ301           2
+                            SJ302           2
+
+VDDD_DREG_DECOUPLE          C216            2
+                            U202            2
+
+XLAT01_3V3_BIAS             C405            2
+                            R415            1
+                            U401            23
+                            U401            24
+
+XLAT02_3V3_BIAS             C406            2
+                            R416            1
+                            U402            23
+                            U402            24
+

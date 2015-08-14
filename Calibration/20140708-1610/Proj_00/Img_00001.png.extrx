@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageExtrinsics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Extrinsics>
+    <Row>
+      <Column>0.9989286587425793</Column>
+      <Column>-0.015826820836123842</Column>
+      <Column>0.043486164293635325</Column>
+      <Column>-12.394564345976258</Column>
+    </Row>
+    <Row>
+      <Column>-0.019537450930365005</Column>
+      <Column>-0.99607982405510664</Column>
+      <Column>0.086274400151444247</Column>
+      <Column>-0.76350314615377768</Column>
+    </Row>
+    <Row>
+      <Column>0.041950241404494763</Column>
+      <Column>-0.087031579628139455</Column>
+      <Column>-0.99532189837938134</Column>
+      <Column>63.897666184686408</Column>
+    </Row>
+    <Row>
+      <Column>0</Column>
+      <Column>0</Column>
+      <Column>0</Column>
+      <Column>1</Column>
+    </Row>
+  </Extrinsics>
+</ImageExtrinsics>

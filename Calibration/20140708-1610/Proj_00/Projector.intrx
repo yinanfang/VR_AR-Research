@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewpointIntrinsics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Intrinsics>
+    <Row>
+      <Column>1414.7454304558892</Column>
+      <Column>0</Column>
+      <Column>493.38263202230019</Column>
+    </Row>
+    <Row>
+      <Column>0</Column>
+      <Column>1415.119858623412</Column>
+      <Column>625.93849771098371</Column>
+    </Row>
+    <Row>
+      <Column>0</Column>
+      <Column>0</Column>
+      <Column>1</Column>
+    </Row>
+  </Intrinsics>
+  <RadialDistortionCoefficients>
+    <Value>0.065201629634989627</Value>
+    <Value>-0.46595650508874042</Value>
+    <Value>0.0046293483308422418</Value>
+    <Value>0.010221943361488371</Value>
+    <Value>1.4886298881548206</Value>
+  </RadialDistortionCoefficients>
+  <ImageSize>
+    <Width>1024</Width>
+    <Height>768</Height>
+  </ImageSize>
+</ViewpointIntrinsics>

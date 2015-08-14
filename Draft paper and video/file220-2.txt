@@ -1,0 +1,7 @@
+ismar2014-low-latency-220.mp4
+
+	Container:   MP4
+	Resolution:  1280x720
+	Frame Rate:  60 fps, constant
+	Video Codec: AVC
+	Audio Codec: AAC

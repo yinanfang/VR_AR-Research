@@ -1,0 +1,6 @@
+Height of 0,0 checker is 2 5/32 inches from the surface of the table.\
+
+
+MaskTracer.Cameras.ProjectionMatrixHelper?
+
+method that computes Projection matrix

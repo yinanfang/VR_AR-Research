@@ -1,0 +1,12 @@
+﻿1. Calibration Process
+        a. Calibration by measuring the origin on the board
+        
+        b. Calibration by using the tracking system
+
+
+2. Produce a calibration data file
+
+
+
+
+3. C# OpenGL program will take the calibration data and form an image
